@@ -6,18 +6,11 @@
   <title>House Meowzers Rescue</title>
   <link rel="stylesheet" href="assets/css/style.css" />
   <script defer src="assets/js/slider.js"></script>
+  <script defer src="assets/js/main.js"></script>
 </head>
 <body>
-  <!-- Header -->
-  <header>
-    <div class="logo">🐾 House Meowzers Rescue</div>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#donate">Donate</a>
-      <a href="#tiktok">TikTok</a>
-      <a href="#store">Store</a>
-    </nav>
-  </header>
+  <!-- Header will be injected from partial -->
+  <div id="header"></div>
 
   <!-- Slideshow -->
   <section class="slideshow">
@@ -53,7 +46,7 @@
   <!-- TikTok Embed -->
   <section id="tiktok" class="tiktok">
     <h2>Latest TikTok</h2>
-    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@housemeowzers" data-video-id="" style="max-width: 605px;min-width: 325px;">
+    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@housemeowzers" style="max-width: 605px;min-width: 325px;">
       <section>Loading TikTok...</section>
     </blockquote>
     <script async src="https://www.tiktok.com/embed.js"></script>
@@ -65,9 +58,7 @@
     <iframe src="https://your-square-store-url" style="width:100%; height:800px; border:none;"></iframe>
   </section>
 
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 House Meowzers Rescue | Phoenix, AZ</p>
-  </footer>
+  <!-- Footer will be injected from partial -->
+  <div id="footer"></div>
 </body>
 </html>

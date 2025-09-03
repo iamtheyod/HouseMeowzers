@@ -99,3 +99,26 @@ nav a.active {
   font-weight: bold;
   text-decoration: underline;
 }
+/* About Page */
+.about-page {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 1.7;
+}
+.about-page h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+.about-page h3 {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+.about-page ul {
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+}
+.about-page ul li {
+  margin-bottom: 0.5rem;
+}
